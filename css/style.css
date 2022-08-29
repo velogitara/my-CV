@@ -1,7 +1,7 @@
 body {
   background-color: #e5e5e5;
   font-family: 'Roboto', sans-serif;
-  font-size: 15px;
+  font-size: 14px;
   line-height: 1.6;
   font-style: normal;
   font-weight: normal;
@@ -20,7 +20,7 @@ body {
 /* .about-me-section */
 
 .about-me-section {
-  margin: 0 0 0 0;
+  margin: 0 0 20px 0;
 }
 
 /* main-content-section */
@@ -62,10 +62,10 @@ body {
 /* my-projects-section */
 
 .my-projects-section {
-  margin: 0 0 50px 0;
+  margin: 0 0 20px 0;
 }
 .my-projects-list {
-  padding: 0 0 0 18px;
+  padding: 0;
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
@@ -75,11 +75,11 @@ body {
 
 .my-projects-item {
   color: #000;
-  border-bottom: 1px solid #000;
+  /* border-bottom: 1px solid #000; */
   margin-bottom: 5px;
 }
 .my-projects-text {
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-size: 14px;
   line-height: 24px;
@@ -87,7 +87,7 @@ body {
   text-decoration: underline;
 }
 .my-projects-link {
-  font-family: Roboto;
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
@@ -102,20 +102,25 @@ body {
   display: flex;
 }
 .my-projects-list-item-text {
-  font-family: 'Montserrat';
-  font-weight: 500;
+  /* font-family: 'Montserrat'; */
+  font-weight: 400;
   color: #595959;
   margin-left: 5px;
 }
 
 /* My work experience */
+
+.my-work-experience-section {
+  margin-bottom: 20px;
+}
+
 .my-work-experience-company-color {
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
   line-height: 20px;
   color: #000;
-  padding-left: 5px;
+  /* padding-left: 5px; */
 }
 
 .my-work-experience-positiom {
@@ -132,19 +137,19 @@ body {
   font-size: 12px;
   line-height: 15px;
   color: #797676;
-  padding-left: 10px;
+  /* padding-left: 10px; */
 }
 .my-work-experience-period-slashline {
-  font-family: Roboto;
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
   line-height: 15px;
   color: #000000;
 }
-.my-work-experience-duty {
+/* .my-work-experience-duty {
   padding: 0 0 0 18px;
-}
+} */
 .my-work-experience-step {
   font-style: normal;
   font-weight: normal;
@@ -155,13 +160,10 @@ body {
 }
 .my-work-experience-company-block {
   margin: 0 15px 10px 0;
-  padding-left: 18px;
-  border-bottom: 1px solid #000;
+  /* padding-left: 18px; */
+  /* border-bottom: 1px solid #000; */
 }
 /* my-education */
-.my-education-section {
-  margin-top: 20px;
-}
 
 .my-education-name-university {
   font-style: normal;
@@ -241,7 +243,7 @@ body {
   margin-top: 10px;
 }
 .-skills-list {
-  padding: 0 0 0 17px;
+  padding: 0;
 }
 .skills-item {
   color: #3a9efd;
